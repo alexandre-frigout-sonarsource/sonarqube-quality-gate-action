@@ -9,7 +9,7 @@ fi
 
 metadataFile="$1"
 
-debugcurl="$2"
+debugcurl="${CURL_DEBUG_FLAG}"
 
 if [[ ! -f "$metadataFile" ]]; then
    echo "$metadataFile does not exist."
