@@ -9,6 +9,8 @@ fi
 
 metadataFile="$1"
 
+debugcurl="$2"
+
 if [[ ! -f "$metadataFile" ]]; then
    echo "$metadataFile does not exist."
    exit 1
